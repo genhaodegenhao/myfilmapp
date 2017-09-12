@@ -1,0 +1,28 @@
+{
+	"status": 0,
+	"data": [
+		{
+			"shows": [
+				{
+					"endtime": "2017-09-06 18:52:00",
+					"hallName": "1号厅",
+					"settle_price": null,
+					"edition": "2D+IMAX",
+					"seatNums": "-3/0",
+					"show_time": "2017-09-06 16:55:00",
+					"lang": "国语"
+				}, {
+					"endtime": "2017-09-06 21:37:00",
+					"hallName": "1号厅",
+					"settle_price": null,
+					"edition": "2D+IMAX",
+					"seatNums": "-3/0",
+					"show_time": "2017-09-06 19:40:00",
+					"lang": "国语"
+				}
+			],
+			"show_date": 1504627200000
+		}
+	],
+	"msg": "请求成功"
+}

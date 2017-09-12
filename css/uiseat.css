@@ -1,0 +1,288 @@
+@charset "utf-8";
+.navinfo {
+	background-color: #f3f4f6;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #dcdee4;
+	border-bottom-color: #CCC;
+	overflow-y: hidden;
+	position: relative;
+	padding: 2px 0;
+	text-align: center;
+}
+.header .btngroup {
+	display: inline-block;
+}
+.header .btngroup .btn {
+	font-size: 10pt;
+}
+.header .current_city {
+	display: inline-block;
+}
+.header .goback {
+	font-size: 22px;
+}
+.header .title {
+	margin-left: -32px;
+}
+#filmtime{
+	margin: 0 6px;
+}
+ul.cinemainfo{
+	margin-top: 10px;
+}
+ul.cinemainfo li:first-child{ border-top:none;}
+ul.cinemainfo li {
+	line-height: 180%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dee0e5;
+	padding-left: 28px;
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0px 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+ul.cinemainfo li a{
+	line-height: 180%;
+}
+.cnt {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+table.grid {
+	width: 100%;
+}
+.yinmu {
+	background-color: #ccc;
+}
+.yinmu .caption {
+	color: #fff;
+}
+.legend span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 10pt;
+}
+.selectedSeats ul li {
+	display: block;
+	float: left;
+	width: 33.33%;
+}
+input[name=product_count]{
+	height: 28px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: top;
+}
+.cinema_icon{
+	height: 53px;
+	line-height: 73px;
+	margin-right: 15px;
+}
+/*jquery.ui.confirm styles*/
+.confirm {display: block;position: fixed;z-index: 10000;top: 200px;left: 200px;height: auto;}
+.confirmMask {position: fixed;z-index: 9999;height: 100%;width: 100%;left: 0px;top: 0px;background-color: #CCC;display: none;}
+.confirm .background {display: block;background-color: #CCC;position: absolute;left: -10px;top: -10px;right: -10px;bottom: -10px;z-index: 1;}
+.confirm .body {
+	display: block;
+	border: 1px solid #999;
+	background-color: #FFF;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+.confirm .body .msgCnt {
+	padding: 20px;
+}
+.confirm .body .fBar {
+	display: block;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	background-color: #f2f2f3;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ddd;
+}
+.confirm .fBar ul.buttonGroup {
+	display: block;
+	white-space: nowrap;
+}
+.confirm .fBar .buttonGroup li {
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+}
+.confirm .fBar .buttonGroup span  {
+	border-left: 1px solid #CCC;
+	display: block;
+	color: #000;
+	line-height: 48px;
+}
+.confirm .fBar .buttonGroup li:first-child span{
+	border-left: none;
+}
+.confirm .body div.text  {
+	line-height: 200%;
+	display: block;
+}
+/*jquery.ui.floatingHint*/
+.floatingHint {display: block;position: fixed;z-index:10000;top: 0px;left: 0px;height: auto;}
+.floatingHint .background {display: block;background-color:#000;position: absolute;left: -4px;top: -4px;right: -4px;bottom: -4px;z-index: 1;}
+.floatingHint .body {display: block;border: 1px solid #d48600;background-color: #fdf9c9;position: relative;	z-index: 10;}
+.floatingHint .body .notiseIcon {height: 40px;width: 36px;float: left;}
+.floatingHint .body .title {background-color: #d48600;display: block;color: #FFF;text-indent: 6px;font-weight: bold;padding-right: 12px;text-align: left;line-height: 24px;}
+.floatingHint .body .title a.close{color: #FFF;top: 6px;right: 6px;}
+.floatingHint .body a.close {display: inline-block;height: 12px;width: 12px;position: absolute;top: 0px;right: 0px;color: #d48600;font-family: Tahoma, Geneva, sans-serif;line-height: 10px;text-align: center;font-size: 8pt;font-weight: bold;}
+.floatingHint .body a.close:hover {text-decoration: none;font-weight: bold;	color: #900;}
+.floatingHint .body {display: block;padding: 1px;}
+.floatingHint .body div.text  {line-height: 200%;display: block;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;padding-left: 6px;}
+.floatingHint.success .body div.text,.floatingHint.error .body div.text ,.floatingHint.information .body div.text {margin-left: 36px;}
+.floatingHint.success .body .notiseIcon {background-image:url(../images/notification-success.png);background-repeat:no-repeat;background-position:center center;}
+.floatingHint.error .body .notiseIcon {background-image:url(../images/notification-error.png);background-repeat:no-repeat;background-position:center center;}
+.floatingHint.information .body .notiseIcon {background-image:url(../images/notification-information.png);background-repeat:no-repeat;background-position:center center;}
+.uiseat {
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	display: block;
+}
+.uiseat .seatmap {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.uiseat .hsbar th,.uiseat .vsbar td{
+	font-family: Verdana, Geneva, sans-serif; color:#fff;
+}
+.uiseat .hsbar table th,.uiseat .vsbar table th{
+	font-size: 10px;
+	color: #FFF;
+	line-height: normal;
+}
+.uiseat .vsbar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 16px;
+	opacity:.6;
+}
+.uiseat .vsbar ul li {
+	display: block;
+	color: #FFF;
+	text-align: center;
+	font-family: sans-serif, Geneva, Verdana;
+	font-size: 10px;
+	line-height: normal;
+	background-color: #000;
+}
+.uiseat .hsbar {
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+	right: 20px;
+	white-space: nowrap;
+	opacity: .6;
+}
+.uiseat .hsbar ul{
+	display: block;
+}
+.uiseat .hsbar ul li {
+	display: inline-block;
+	color: #FFF;
+	white-space: nowrap;
+	font-family: sans-serif, Geneva, Verdana;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: top;
+	background-color: #333;
+}
+.uiseat .hsbar table {
+	width: 100%;
+}
+.uiseat .seatmap table {
+	width: 100%;
+	vertical-align: top;
+}
+.uiseat .seatmap table tr{
+	display: block;
+}
+.uiseat .seatmap table tr td {
+	position: relative;
+	line-height: normal;
+	padding: 0px;
+	margin: 0px;
+}
+.uiseat .seatmap table tr td span{
+	vertical-align: top;
+}
+.uiseat .seatmap .seat_area {
+	position: relative;
+	left: 1px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	background-color: #0CF;
+	display: block;
+}
+.uiseat .seatmap .available_seat em{
+	display: inline-block;
+	background-image: url(../images/cinema_seat.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.uiseat .seatmap .unavailable_seat em{
+	display: inline-block;
+	background-image: url(../images/cinema_seat_off.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.uiseat .seatmap .available_seat.selected em{
+	background-image: url(../images/cinema_seat_on.png);
+}
+.uiseat .seatmap ul li {
+	display: block;
+	line-height: normal;
+	white-space: nowrap;
+}
+.uiseat .seatmap ul li span  {
+	display: inline-block;
+	background-color: #FFF;
+	vertical-align: top;
+	padding: 1px;
+}
+.uiseat .seatmap ul li span em {
+	height: 100%;
+	width: 100%;
+	vertical-align: top;
+}
+.uiseat .errorText{
+	color: #555;
+}
+.uiseat table th, .uiseat table td {
+	text-align: center;
+	vertical-align: middle;
+	line-height: normal;
+}
+.uiseat .normal th{
+	background-color: #999;
+	line-height: normal;
+}
+.uiseat .normal th,.uiseat .normal th em {
+	font-size: 10px;
+}
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}to{-webkit-transform: rotate(360deg)}}
+@-moz-keyframes rotate{from{-moz-transform: rotate(0deg)}to{-moz-transform: rotate(360deg)}}
+@-ms-keyframes rotate{from{-ms-transform: rotate(0deg)}to{-ms-transform: rotate(360deg)}}
+@-o-keyframes rotate{from{-o-transform: rotate(0deg)}to{-o-transform: rotate(360deg)}}
+@keyframes rotate{from{transform: rotate(0deg)}to{transform: rotate(360deg)}}

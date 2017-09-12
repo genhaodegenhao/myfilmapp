@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="Content-Type" content="text/html;">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>场次</title>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/filmlist.css"/>
+	    <script src="js/jquery-1.8.3.min.js"></script>
+	    <script src="js/common/template-native.js"></script>
+	    <script src="js/common/dateformat.js"></script>
+	    <script src="js/fn.js"></script>
+	    <script type="text/javascript">
+	    	var path="";
+		</script>
+	</head>
+	<body>
+		<input type="hidden" id="basePath" value="/" />
+		<section id="showWraper">
+	    	<section>
+	    		<div class="header_nav_box">
+					<div class="header_nav">
+						<a href="javascript:history.back(-1);" class="fl icon24 i400"></a>
+						<span class="title fzl"></span>
+					</div>
+				</div>
+	    	</section>
+	    	<scetion>
+	    		<div class="cinemaName">
+		    		<ul class="cinema_list">
+						<li class="cinema_item" id="heaCinemaName">
+							<div class="cinema_icon fl"><img src="images/film-icon.png"/></div>
+							<div class="cinemaname_address">
+								<p class="cinema_name fzl"></p>
+								<p class="cinema_addressed fzs"></p>
+							</div>
+						</li>
+					</ul>
+		    	</div>
+	    	</scetion>
+	    	<section>
+	    		<div class="tbar">
+					<div id="showDateBtnBox" class="btngroup film-date-wrapper"></div>
+				</div>
+	    	</section>
+			<section id="filmShowBox">
+				<section id="todayFilmShowBox" class="show_list_box" data-index="0">
+					<div id="film_show" class="film_show">
+						
+					</div>
+				</section>
+			</section>
+	   </section>
+	    <script src="js/common/history.js"></script>
+	    <script src="js/filmshow/show2.js"></script>
+	</body>
+</html>

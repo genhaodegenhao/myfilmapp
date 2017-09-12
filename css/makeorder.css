@@ -1,0 +1,34 @@
+.countdown{
+	height: 40px;
+	line-height: 40px;
+	background: #f3f4f6;
+	font-size: 12px;
+	color: #ef4a4a;
+}
+.text{
+	margin: 15px;
+}
+.orderinfo li{
+	padding: 0 15px;
+	border-bottom: 1px solid #ccc;
+	background: #f3f4f6;
+}
+.orderinfo p{
+	line-height: 50px;
+}
+.orderinfo .filmname{
+	font-weight: bold;
+}
+.orderbtn{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background: #ef4a4a;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.seatinfo span{
+	margin-right: 5px;
+}

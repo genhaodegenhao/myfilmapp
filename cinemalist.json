@@ -1,0 +1,260 @@
+{
+	"msg": "",
+	"status": 0,
+	"data": [
+		{
+			"address": "上海嘉定区塔城路295号2幢",
+			"cinema": {
+				"cid": "007",
+				"name": "上海光魔酷映店",
+				"shortname": "上海光魔酷映店",
+				"appshortname": "",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.38266,
+				"lon": 121.255746,
+				"tel": "021-59165500-800",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海嘉定区塔城路295号2幢"
+			}
+		}, {
+			"address": "上海市闵行区都市路3759号上海龙盛国际广场3楼万达影城",
+			"cinema": {
+				"cid": "136",
+				"name": "上海颛桥龙盛广场店",
+				"shortname": "上海颛桥店",
+				"appshortname": "",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.085797,
+				"lon": 121.39912,
+				"tel": "021-60740160",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海市闵行区都市路3759号上海龙盛国际广场3楼万达影城"
+			}
+		}, {
+			"address": "上海市杨浦区国宾路58号万达广场三层",
+			"cinema": {
+				"cid": "336",
+				"name": "上海五角场万达广场店",
+				"shortname": "上海五角场店",
+				"appshortname": "五角场店",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.300349,
+				"lon": 121.513896,
+				"tel": "021-55660926",
+				"logo": {
+					"name": "",
+					"url": "https://images.wandafilm.com/uploadServer/resource/images/2011/05/20110527151026685374.jpg"
+				},
+				"address": "上海市杨浦区国宾路58号万达广场三层"
+			}
+		}, {
+			"address": "上海市浦东新区年家浜路518号万达广场四层",
+			"cinema": {
+				"cid": "340",
+				"name": "上海周浦万达广场店",
+				"shortname": "上海周浦店",
+				"appshortname": "周浦店",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.114462,
+				"lon": 121.570199,
+				"tel": "021-38230668",
+				"logo": {
+					"name": "",
+					"url": "https://images.wandafilm.com/uploadServer/resource/images/2011/05/20110527152058340373.jpg"
+				},
+				"address": "上海市浦东新区年家浜路518号万达广场四层"
+			}
+		}, {
+			"address": "上海市嘉定区金沙江西路1075弄49号万达广场三层",
+			"cinema": {
+				"cid": "371",
+				"name": "上海江桥万达广场店",
+				"shortname": "上海江桥店",
+				"appshortname": "江桥店",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.239722,
+				"lon": 121.32207,
+				"tel": "021-31275666",
+				"logo": {
+					"name": "",
+					"url": "https://images.wandafilm.com/uploadServer/resource/images/2011/06/20110622112051877697.jpg"
+				},
+				"address": "上海市嘉定区金沙江西路1075弄49号万达广场三层"
+			}
+		}, {
+			"address": "上海市浦东新区长岛路1156、1158号金桥翡翠坊3F",
+			"cinema": {
+				"cid": "505",
+				"name": "上海金桥店",
+				"shortname": "上海金桥店",
+				"appshortname": "",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.260744,
+				"lon": 121.592276,
+				"tel": "021-20230988",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海市浦东新区长岛路1156、1158号金桥翡翠坊3F"
+			}
+		}, {
+			"address": "上海市松江区文诚路238弄1号卜蜂莲花2F",
+			"cinema": {
+				"cid": "506",
+				"name": "上海松江文诚路店",
+				"shortname": "上海松江文诚路店",
+				"appshortname": "",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.032792,
+				"lon": 121.219821,
+				"tel": "021-33525598",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海市松江区文诚路238弄1号卜蜂莲花2F"
+			}
+		}, {
+			"address": "上海市长宁区遵义路100号虹桥南丰城南区L4层420-422",
+			"cinema": {
+				"cid": "515",
+				"name": "上海虹桥店",
+				"shortname": "上海虹桥店 ",
+				"appshortname": "",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.207272,
+				"lon": 121.407847,
+				"tel": "021-62276220",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海市长宁区遵义路100号虹桥南丰城南区L4层420-422"
+			}
+		}, {
+			"address": "上海宝山区共和新路一二八纪念路936号万达广场5楼",
+			"cinema": {
+				"cid": "808",
+				"name": "上海宝山万达广场店",
+				"shortname": "上海宝山店",
+				"appshortname": "宝山店",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.324173,
+				"lon": 121.447506,
+				"tel": "021-31150880-817",
+				"logo": {
+					"name": "",
+					"url": "https://images.wandafilm.com/uploadServer/resource/images/2012/10/20121015165024506413.jpg"
+				},
+				"address": "上海宝山区共和新路一二八纪念路936号万达广场5楼"
+			}
+		}, {
+			"address": "上海市松江区广富林路692号松江万达广场4楼",
+			"cinema": {
+				"cid": "878",
+				"name": "上海松江万达广场店",
+				"shortname": "上海松江店",
+				"appshortname": "上海松江",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 31.058752,
+				"lon": 121.241373,
+				"tel": "021-51213777",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海市松江区广富林路692号松江万达广场4楼"
+			}
+		}, {
+			"address": "上海市金山区龙晧路1088号万达广场4楼",
+			"cinema": {
+				"cid": "928",
+				"name": "上海金山万达广场店",
+				"shortname": "上海金山店",
+				"appshortname": "",
+				"city": {
+					"cid": "3774659600",
+					"name": "上海",
+					"firstletter": "S",
+					"isgroupon": 0
+				},
+				"salestatus": 0,
+				"lat": 30.754671,
+				"lon": 121.338307,
+				"tel": "021-31022888",
+				"logo": {
+					"name": "",
+					"url": ""
+				},
+				"address": "上海市金山区龙晧路1088号万达广场4楼"
+			}
+		}
+	]
+}

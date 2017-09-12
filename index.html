@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="Content-Type" content="text/html;">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>电影</title>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/filmlist.css"/>
+	</head>
+	<body>
+		<input type="hidden" id="basePath" value="/" />
+		<section id="showWraper">
+	    	<section id="filmShowHeader">
+				<div class="header_nav_box">
+					<div class="header_nav">
+						<span class="title fzl">电影</span>
+					</div>
+				</div>
+	    	</section>
+	    	<scetion>
+	    		<div class="banner">
+		    		<div class="swiper-container">
+					    <div class="swiper-wrapper">
+						    <div class="swiper-slide"><img src="images/film-detail/film-stills03-b.jpg" alt="" /></div>
+						    <div class="swiper-slide"><img src="images/film-detail/film-stills01-b.jpg"/></div>
+						    <div class="swiper-slide"><img src="images/film-detail/film-stills02-b.jpg"/></div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+		    	</div>
+	    	</scetion>
+	    	<section>
+	    		<div class="tbar">
+					<ul class="tbarul">
+						<li class="cinemaname">
+							<span class="name">江桥店</span>
+							<span class="arrowdown"></span>
+						</li>
+						<li class="same hotfilm active">正在热映</li>
+						<li class="same willfilm">即将上映</li>
+					</ul>
+				</div>
+	    	</section>
+			<section id="filmShowBox">
+				<div id="film_show" class="film_show">
+					<ul id="hotfilm" class="listbox show"></ul>
+					<!--<ul id="goingfilm" class="listbox"></ul>-->
+				</div>
+			</section>
+	    </section>
+	    <section id="cinemaList" class="hide">
+			<div class="header_nav_box">
+				<div class="header_nav">
+					<a href="javascript:history.back(-1);" class="fl icon24 i400"></a>
+					<span class="title fzl">选择影院</span>
+					<div class="location fzs" onclick="cinemaListView.showCityList()"><span class="oper_img icon24 i200"></span><span id="cityName" class="fzs">上海</span></div>
+				</div>
+			</div>
+			<div id="cinemaListInfo"></div>
+	    </section>
+	    <!--<script src="js/jquery-1.8.3.min.js"></script>-->
+	    <script src="js/zepto.min.js"></script>
+	    <script src="js/swiper.js"></script>
+	    <script src="js/common/template-native.js"></script>
+	    <!--<script src="js/fn.js"></script>-->
+	    <!--<script src="js/common/history.js"></script>-->
+	    <!--<script src="js/filmshow/show2.js"></script>-->
+	    <script src="js/shouyetemplate.js"></script>
+	</body>
+</html>
