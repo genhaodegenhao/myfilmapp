@@ -194,26 +194,11 @@ var fastView = (function(exports){
     function chooseShow(cinemaId,showId,filmId,showdate,starttime,hallName,edition){
     	var timeStart = new Date(showdate);//影片开始时间
     	var timeNow = new Date();//当前时间
-//  	if(timeStart<timeNow){
-//  		alert("抱歉，该场次已放映！");
-//  		return false;
-//  	}
-//  	if(availablechannel==0){
-//  		alert("抱歉，该场次不支持网购！");
-//  		return false;
-//  	}
-//  	if(availableseatcnt==0){
-//  		alert("抱歉，该场次影票已售罄！");
-//  		return false;
-//  	}
-//		从缓存中获取cinemaId
-    	//点击所选的场次跳转到选座页面
-    	window.location = path+"/哈哈app/selectseat.html?cinemaid="+cinemaId+"&showid="+showId+"&filmid="+filmId+"&showdate="+showdate+"&starttime="+starttime+"&hallname="+hallName+"&edition="+edition;
+    	window.location = path+"/myfilmapp/selectseat.html?cinemaid="+cinemaId+"&showid="+showId+"&filmid="+filmId+"&showdate="+showdate+"&starttime="+starttime+"&hallname="+hallName+"&edition="+edition;
     }
     
    
     exports.initFilmShowHeader = initFilmShowHeader; 
-//  exports.getFilmShowByCinema = getFilmShowByCinema;
     exports.getFilmShowByDate = getFilmShowByDate;
     exports.getFilmShow = getFilmShow;
     exports.chooseShow = chooseShow;
